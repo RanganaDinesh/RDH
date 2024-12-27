@@ -69,7 +69,7 @@ const ShiningText = () => {
   };
 
   const handleLoginClick = () => {
-    if (name === 'SURE&RDH') {
+    if (name === 'DIGIDINE') {
       navigate(`/dashboard/${name}`);
     } else {
       navigate(`/menulist/${name}`);
